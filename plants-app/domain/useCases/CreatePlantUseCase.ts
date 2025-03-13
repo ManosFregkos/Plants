@@ -1,10 +1,10 @@
 import {PlantRepository} from "../repositories/PlantRepository.ts";
-import {PlantCreation} from "../entities/PlantCreation.ts";
+import {Plant} from "../entities/Plant.ts";
 
 export class CreatePlantUseCase {
   constructor(private readonly repository: PlantRepository) {}
 
-  async execute(name: string): Promise<PlantCreation> {
+  async execute(name: string): Promise<Plant> {
     return await this.repository.createPlant(name);
   }
 }

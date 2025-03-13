@@ -5,41 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bf93e51-00f1-4b8f-8f85-f370c1c8e42f" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/Plants.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/domain/entities/Plant.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/domain/entities/PlantCreation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/domain/repositories/PlantRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/domain/useCases/CreatePlantUseCase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/domain/useCases/GetAllPlantsUseCase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/domain/useCases/GetSpecificPlantUseCase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/infrastructure/PlantRepositoryAPI.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/layouts/DefaultLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/sqlite3/monitoring.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/sqlite3/server.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/vite-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/utils/networking.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/public/plant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/components/Cards/PlantCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/components/CreatePlantSection/CreatePlant.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/components/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/components/Plant/PlantPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/components/PlantsList/PlantCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/components/PlantsList/PlantsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/domain/entities/Plant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/domain/entities/Plant.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/domain/repositories/PlantRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/domain/repositories/PlantRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/domain/useCases/CreatePlantUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/domain/useCases/CreatePlantUseCase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/domain/useCases/GetAllPlantsUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/domain/useCases/GetAllPlantsUseCase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/infrastructure/PlantRepositoryAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/infrastructure/PlantRepositoryAPI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/sqlite3/server.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/sqlite3/server.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +42,9 @@
     "accountId": "20942656-cf8d-45aa-99c6-7d47839e93c2"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -85,6 +69,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plants-app/src/components/PlantsList" />
+      <recent name="$PROJECT_DIR$/plants-app/src/components/Cards" />
+      <recent name="$PROJECT_DIR$/plants-app/public" />
       <recent name="$PROJECT_DIR$/plants-app" />
     </key>
   </component>
@@ -103,8 +90,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741807352995</updated>
-      <workItem from="1741807354150" duration="14404000" />
+      <workItem from="1741807354150" duration="19894000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1741899232952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741899232952</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

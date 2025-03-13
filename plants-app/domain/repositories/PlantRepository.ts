@@ -1,8 +1,7 @@
-import {PlantCreation} from "../entities/PlantCreation.ts";
-import {Plant} from "../entities/Plant.ts";
+import {Plant, PlantContent} from "../entities/Plant.ts";
 
 export interface PlantRepository {
-  createPlant(name: string): Promise<PlantCreation>
-  getAllPlants(): Promise<Plant[]>
+  createPlant(name: string): Promise<Plant>
+  getAllPlants(): Promise<PlantContent>
   getSpecificPlant(plantId: string): Promise<Plant>
 }
