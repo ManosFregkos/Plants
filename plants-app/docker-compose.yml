@@ -1,0 +1,16 @@
+version: '3'
+services:
+  monitoring:
+    image: ldnunespwf/dev-recruiting-challenge-monitor
+    environment:
+      - RANDOM_FAILURE_RATE=0
+    ports:
+      - '5002:5000'  # This is frontend
+    volumes:
+      - ./sqlite3:/app/sqlite3
+  server:
+    image: ldnunespwf/dev-recruiting-challenge-server
+    ports:
+      - '5001:5001' # This is backend
+    volumes:
+      - ./sqlite3:/app/sqlite3
