@@ -17,6 +17,7 @@ const PlantPage = ({repository}: PlantProps) => {
   const {plantUID} = useParams();
   const [loading, setLoading] = useState(true);
   const [plant, setPlant] = useState<Plant>();
+
   useEffect(() => {
     (async () => {
       if (!plantUID) return
