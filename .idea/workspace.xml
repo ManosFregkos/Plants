@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bf93e51-00f1-4b8f-8f85-f370c1c8e42f" name="Changes" comment="add plant page and plants list page">
+      <change afterPath="$PROJECT_DIR$/plants-app/domain/entities/DatapointReport.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/domain/useCases/GetPlantDatapointReportUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/domain/useCases/UpdatePlantDatapointReportUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/components/Plant/plant-page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/components/UpdateDatapointView.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/domain/repositories/PlantRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/domain/repositories/PlantRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/infrastructure/PlantRepositoryAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/infrastructure/PlantRepositoryAPI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/sqlite3/monitoring.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/sqlite3/monitoring.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/sqlite3/server.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/sqlite3/server.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/components/CreatePlantSection/CreatePlant.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/CreatePlantSection/CreatePlant.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/components/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/components/Plant/PlantPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/Plant/PlantPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/components/PlantsList/PlantsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/PlantsList/PlantsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741807352995</updated>
-      <workItem from="1741807354150" duration="24902000" />
+      <workItem from="1741807354150" duration="33511000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -93,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741904864454</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add plant page and plants list page">
+      <option name="closed" value="true" />
+      <created>1741978423748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741978423748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

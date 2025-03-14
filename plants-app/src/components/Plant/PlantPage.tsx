@@ -1,10 +1,13 @@
-import {Backdrop, CircularProgress, Container} from "@mui/material";
+import {Backdrop, CircularProgress, Stack} from "@mui/material";
 import {PlantRepositoryAPI} from "../../../infrastructure/PlantRepositoryAPI.ts";
 import {useEffect, useState} from "react";
 import {Plant} from "../../../domain/entities/Plant.ts";
 import {GetSpecificPlantUseCase} from "../../../domain/useCases/GetSpecificPlantUseCase.ts";
 import {useParams} from 'react-router-dom';
 import PlantCard from "../Cards/PlantCard.tsx";
+import Header from "../Header.tsx";
+import styles from './plant-page.module.css'
+import UpdateDatapointView from "../UpdateDatapointView.tsx";
 
 type PlantProps = {
   repository: PlantRepositoryAPI
@@ -30,12 +33,14 @@ const PlantPage = ({repository}: PlantProps) => {
   }, [repository, plantUID])
 
   return (
-    <Container maxWidth={'xl'}>
+    <Stack>
+      <Header />
+      <UpdateDatapointView plantUID={plantUID!} repository={repository} />
       <Backdrop sx={{color: "#fff", zIndex: 1000}} open={loading}>
         <CircularProgress color="primary"/>
       </Backdrop>
-      {!loading && plant && <PlantCard plant={plant!}/>}
-    </Container>
+      {!loading && plant && <Stack className={styles.centered}><PlantCard plant={plant!}/></Stack>}
+    </Stack>
   )
 }
 export default PlantPage;

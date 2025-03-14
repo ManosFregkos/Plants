@@ -37,9 +37,11 @@ const CreatePlant = ({repository, setPlants}: CreatePlantProps) => {
       <Backdrop sx={{color: "#fff", zIndex: 1000}} open={loading}>
         <CircularProgress color="primary"/>
       </Backdrop>
-      <TextField value={plantName} label={'Plant Name'} placeholder={"Enter a plant name.."}
-                 onChange={(e) => setPlantName(e.target.value)}/>
-      <Button disabled={plantName.length === 0} onClick={handleCreatePlant}>Create Plant</Button>
+      <Stack direction={'row'} columnGap={10} alignItems={"center"}>
+        <TextField sx={{width: 300}} value={plantName} label={'Plant Name'} placeholder={"Enter a plant name.."}
+                   onChange={(e) => setPlantName(e.target.value)}/>
+        <Button disabled={plantName.length === 0} onClick={handleCreatePlant}>Create Plant</Button>
+      </Stack>
     </Stack>
   )
 }

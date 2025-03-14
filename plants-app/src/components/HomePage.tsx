@@ -1,4 +1,4 @@
-import {Backdrop, Box, CircularProgress, Container, Typography} from "@mui/material";
+import {Backdrop, Box, CircularProgress, Container, Stack, Typography} from "@mui/material";
 import PlantsList from "./PlantsList/PlantsList.tsx";
 import * as React from "react";
 import {useEffect} from "react";
@@ -32,14 +32,16 @@ const HomePage = ({repository}: HomePageProps) => {
   }, [repository])
 
   return (
-    <Container maxWidth={'xl'}>
+    <Container maxWidth={'xl'} sx={{padding: '24px'}}>
       <Backdrop sx={{color: "#fff", zIndex: 1000}} open={loading}>
         <CircularProgress color="primary"/>
       </Backdrop>
       {!loading && plants.results.length === 0 && <Typography>There are no plants yet !!</Typography>}
-      {!loading && plants.results.length > 0 && <PlantsList plants={plants.results}/>}
+      {!loading && plants.results.length > 0 && <Stack rowGap={2}> <Typography variant={'h4'}>Plants
+        Count: <b>{plants.count}</b></Typography><PlantsList plants={plants.results}/></Stack>}
       <Box mt={4}/>
-      <CreatePlant repository={repository} setPlants={setPlants} />
+
+      <CreatePlant repository={repository} setPlants={setPlants}/>
     </Container>
   )
 }
