@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf93e51-00f1-4b8f-8f85-f370c1c8e42f" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/plants-app/public/plant.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/components/Cards/PlantCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/components/CreatePlantSection/CreatePlant.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/components/HomePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/components/Plant/PlantPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/components/PlantsList/PlantCard.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/components/PlantsList/PlantsList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plants-app/src/routes.tsx" afterDir="false" />
+    <list default="true" id="4bf93e51-00f1-4b8f-8f85-f370c1c8e42f" name="Changes" comment="add plant page and plants list page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plants-app/domain/entities/Plant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/domain/entities/Plant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plants-app/domain/repositories/PlantRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/domain/repositories/PlantRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plants-app/domain/useCases/CreatePlantUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/domain/useCases/CreatePlantUseCase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plants-app/domain/useCases/GetAllPlantsUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/domain/useCases/GetAllPlantsUseCase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plants-app/infrastructure/PlantRepositoryAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/infrastructure/PlantRepositoryAPI.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plants-app/sqlite3/server.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/sqlite3/server.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plants-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741807352995</updated>
-      <workItem from="1741807354150" duration="19894000" />
+      <workItem from="1741807354150" duration="24902000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -100,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741899232952</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add plant page and plants list page">
+      <option name="closed" value="true" />
+      <created>1741904864454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741904864454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="add plant page and plants list page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add plant page and plants list page" />
   </component>
 </project>
