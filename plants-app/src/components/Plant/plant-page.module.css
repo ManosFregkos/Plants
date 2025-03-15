@@ -1,5 +1,4 @@
 .centered {
     margin-top: 10%;
-    min-height: calc(100vh - 60px);
     align-items: center;
 }

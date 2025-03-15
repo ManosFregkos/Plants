@@ -19,7 +19,7 @@ const PlantsList = ({plants}: Props) => {
   return (
     <Stack className={styles.cardContainer} direction="row" columnGap={2} flexWrap="wrap" alignItems="center">
       {plants.map((plant) => (
-        <Stack mt={2} key={plant.uid}><PlantCard plant={plant} handlePlantSelect={handlePlantSelect}/></Stack>
+        <Stack mt={2} key={plant.uid}><PlantCard plant={plant} handlePlantSelect={handlePlantSelect} enableHover={true}/></Stack>
       ))}
     </Stack>
   )

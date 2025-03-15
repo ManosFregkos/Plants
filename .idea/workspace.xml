@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf93e51-00f1-4b8f-8f85-f370c1c8e42f" name="Changes" comment="finalize all api calls">
-      <change afterPath="$PROJECT_DIR$/plants-app/src/components/ChartComponent.tsx" afterDir="false" />
+    <list default="true" id="4bf93e51-00f1-4b8f-8f85-f370c1c8e42f" name="Changes" comment="finalize the chart">
+      <change afterPath="$PROJECT_DIR$/plants-app/hooks/useFetchPlant.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/hooks/usePlants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plants-app/src/components/Dialogs/ChartDialog.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plants-app/domain/entities/DatapointReport.ts" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/domain/entities/DatapointReport.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plants-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plants-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plants-app/sqlite3/monitoring.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/sqlite3/monitoring.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plants-app/sqlite3/server.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/sqlite3/server.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/components/Cards/PlantCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/Cards/PlantCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/components/CreatePlantSection/CreatePlant.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/CreatePlantSection/CreatePlant.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/components/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/HomePage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plants-app/src/components/Plant/PlantPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/Plant/PlantPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/components/Plant/plant-page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/Plant/plant-page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plants-app/src/components/PlantsList/PlantsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/PlantsList/PlantsList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plants-app/src/components/UpdateDatapointView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/plants-app/src/components/UpdateDatapointView.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +63,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/manosfregkos/WebstormProjects/Plants/plants-app/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Users/manosfregkos/WebstormProjects/Plants/plants-app/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -83,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741807352995</updated>
-      <workItem from="1741807354150" duration="37923000" />
+      <workItem from="1741807354150" duration="44246000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -117,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741986859417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finalize the chart">
+      <option name="closed" value="true" />
+      <created>1741991102987</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741991102987</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +144,7 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="add plant page and plants list page" />
     <MESSAGE value="finalize all api calls" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalize all api calls" />
+    <MESSAGE value="finalize the chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalize the chart" />
   </component>
 </project>
